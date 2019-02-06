@@ -3,22 +3,52 @@
 	
 	
 
-<link rel="stylesheet" href="tito.css">
+
 
 	<head>
+	<!-- Include material design icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!-- include stylesheet from material design -->
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <!-- include javascript needed for material design -->
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>	
+	
+	
+	<!-- fichier javascript -->
+	<script type = "text/javascript" src = "java-cv.js" ></script>
+	
+	
+
+	
+	
+	<!-- Default Slider -->
+	<input class="mdl-slider mdl-js-slider" type="range" id="progress_bar"  oninput="myScroll(this.value)" min="0" max="100" value="0" tabindex="0">
+
+	<!-- fichier css -->
+	<link rel="stylesheet" href="tito.css">
+	
+	
+	
 	</head>
 	<body>
-		<h1>Engineer in Automatism, Robotics, Control, Command, data processing and special machine</h1>
+
+
+
+		<h1>Engineer in Informatic, Automatism, Robotics, Control, Command, data processing and special machine</h1>
+	<div class="banniere"> <img id= "photo" src="IMG_0150.JPG" align="right" /></div>
 		<h2>Taha MEFTAH</h2>
+	
+	
 	<ul>	
 		<li>taha.meftah94@gmail.com</li>
+		<li>En recherche active d'un stage</li>
 		<li>0760097367</li>
-		<li>Lyon france</li>
+		<li><a href="https://www.google.com/maps/place/92+Avenue+Jean+Mermoz,+69008+Lyon/@45.7322942,4.8794768,17z/data=!3m1!4b1!4m5!3m4!1s0x47f4c1f1c05e0d4b:0x7cec09c9de1840ce!8m2!3d45.7322905!4d4.8816655">Addresse</a> : Lyon france</li>
+		<li><a href="https://www.linkedin.com/in/taha-meftah/">LinkedIn</a> : Taha MEFTAH</li>
 	</ul>
-	
 	</body>
 	
-	
+	<div id="Tito" class="content">
 	
 		<h2>Education</h2>
 		
@@ -88,9 +118,109 @@
 	
 	
 		<h2>Languages</h2>
-	    <h3>English</h3> <p>fluent</p>
-	    <h3>French</h3> <p>upper intermediate</p>
-	    <h3>Arabic</h3> <p>mother tongue</p>
 	    
-	
+	    <!-- Simple MDL Progress Bar -->
+<h3>Arabic<div id="p1" class="mdl-progress mdl-js-progress"></div></h3>
+<script>
+  document.querySelector('#p1').addEventListener('mdl-componentupgraded', function() {
+    this.MaterialProgress.setProgress(95);
+  });
+</script>
+
+
+		<!-- MDL Progress Bar with Buffering -->
+<h3>French<div id="p4" class="mdl-progress mdl-js-progress"></div></h3>
+
+<script>
+  document.querySelector('#p4').addEventListener('mdl-componentupgraded', function() {
+    this.MaterialProgress.setProgress(75);
+    this.MaterialProgress.setBuffer(87);
+  });
+</script>
+
+		<!-- MDL Progress Bar with Buffering -->
+<h3>English<div id="p3" class="mdl-progress mdl-js-progress"></div></h3>
+
+<script>
+  document.querySelector('#p3').addEventListener('mdl-componentupgraded', function() {
+    this.MaterialProgress.setProgress(83);
+    this.MaterialProgress.setBuffer(90);
+  });
+</script>
+
+<h2>Compétences Complémentaires en Informatique</h2>
+
+<h4>Systèmes d'information (Merise, UML)<div id="p5" class="mdl-progress mdl-js-progress"></h4>
+<script>
+	document.querySelector('#p5').addEventListener('mdl-componentupgraded', function() {
+    this.MaterialProgress.setProgress(70);
+    this.MaterialProgress.setBuffer(87);
+  });
+</script>
+<h4>Bases de données (Oracle / SQL) <div id="p6" class="mdl-progress mdl-js-progress"></h4>
+<script>
+	document.querySelector('#p6').addEventListener('mdl-componentupgraded', function() {
+    this.MaterialProgress.setProgress(60);
+    this.MaterialProgress.setBuffer(87);
+  });
+</script>
+<h4>Langages de programmation (Shell, C, C++, Java, Python ...) <div id="p7" class="mdl-progress mdl-js-progress"></h4>
+<script>
+	document.querySelector('#p7').addEventListener('mdl-componentupgraded', function() {
+    this.MaterialProgress.setProgress(65);
+    this.MaterialProgress.setBuffer(87);
+  });
+</script>
+<h4>Systèmes d'exploitation (Unix ( MacOS X, GNU/Linux Debian, Ubuntu)) <div id="p8" class="mdl-progress mdl-js-progress"></h4>
+<script>
+	document.querySelector('#p8').addEventListener('mdl-componentupgraded', function() {
+    this.MaterialProgress.setProgress(70);
+    this.MaterialProgress.setBuffer(87);
+  });
+</script>
+<h4>Internet (http, xml, dtd, html, css, javascript) <div id="p9" class="mdl-progress mdl-js-progress"></h4>
+<script>
+	document.querySelector('#p9').addEventListener('mdl-componentupgraded', function() {
+    this.MaterialProgress.setProgress(80);
+    this.MaterialProgress.setBuffer(87);
+  });
+</script>
+<h4>Interopérabilité (OWL, Web services) <div id="p10" class="mdl-progress mdl-js-progress"></h4>
+<script>
+	document.querySelector('#p10').addEventListener('mdl-componentupgraded', function() {
+    this.MaterialProgress.setProgress(68);
+    this.MaterialProgress.setBuffer(87);
+  });
+</script>
+<h4>Systèmes d'information collaboratifs <div id="p11" class="mdl-progress mdl-js-progress"></h4>
+<script>
+	document.querySelector('#p11').addEventListener('mdl-componentupgraded', function() {
+    this.MaterialProgress.setProgress(71);
+    this.MaterialProgress.setBuffer(87);
+  });
+</script>
+<h4>Introduction au Cloud Computing (IaaS, SaaS, PaaS), Virtualisation, Containers (Docker), OpenStack <div id="p12" class="mdl-progress mdl-js-progress"></h4>
+<script>
+	document.querySelector('#p12').addEventListener('mdl-componentupgraded', function() {
+    this.MaterialProgress.setProgress(70);
+    this.MaterialProgress.setBuffer(87);
+  });
+</script>
+
+<h3>Systèmes d'Information pour la Gestion:</h3>
+<h4>Compétences SI pour la gestion, Sécurité des SI, ERP/SAP, Visualisation des informations, Interface H/M, Entrepôt de données <div id="p13" class="mdl-progress mdl-js-progress"></h4>
+<script>
+	document.querySelector('#p13').addEventListener('mdl-componentupgraded', function() {
+    this.MaterialProgress.setProgress(65);
+    this.MaterialProgress.setBuffer(87);
+  });
+</script>
+
+
+
+
+
+	    </div>
+
+
 </html>
